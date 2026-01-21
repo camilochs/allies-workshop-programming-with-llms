@@ -119,13 +119,6 @@ The `data/` folder contains sample datasets from various scientific domains:
 | `machine_learning_benchmarks.csv` | Model performance: accuracy, F1, training time | ML experiment tracking |
 | `shipping_logistics.csv` | Shipment data: routes, costs, delivery times | Operations research |
 
-## API Costs
-
-This workshop uses `gpt-4o-mini` by default, which is very cost-effective:
-- Input: ~$0.15 per 1M tokens
-- Output: ~$0.60 per 1M tokens
-- **Typical workshop cost: Less than $1 total**
-
 ## Live Demo Prompts (For Instructors)
 
 Example prompts to demonstrate OpenCode capabilities during the workshop:
