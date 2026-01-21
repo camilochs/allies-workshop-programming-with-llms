@@ -1,4 +1,4 @@
-# LLM Allies for Scientists
+# AI4Science Series
 
 A practical workshop for post-doctoral researchers to enhance research productivity with AI.
 
