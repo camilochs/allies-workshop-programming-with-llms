@@ -85,6 +85,12 @@ For participants who want to learn how to use LLMs via API directly:
 - `03_automating_repetitive_tasks.ipynb` - Batch processing scripts
 - `04_your_first_ai_agent.ipynb` - Build simple AI agents
 
+### Related Workshop (Advanced)
+
+For a more advanced workshop on LLM-based code generation and evolution techniques:
+
+- **Code Evolution using LLMs and Python** (PyDay BCN 2025): [github.com/camilochs/pydaybcn2025-workshop-code-evolution](https://github.com/camilochs/pydaybcn2025-workshop-code-evolution)
+
 ## Sample Data Files
 
 The `data/` folder contains sample datasets from various scientific domains:
