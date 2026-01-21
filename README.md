@@ -20,15 +20,15 @@ This workshop teaches scientists how to use Large Language Models (LLMs) as prac
 
 ## Workshop Structure
 
-| Section | Duration | Description |
-|---------|----------|-------------|
-| Introduction + Setup | 10 min | OpenCode installation and orientation |
-| OpenCode Basics | 20 min | First prompts, exploring projects |
-| Data Visualization | 25 min | Generate plots from natural language |
-| Automation Tasks | 25 min | Data cleaning, batch processing |
-| Principles & Best Practices | 15 min | CLEAR framework, when to trust AI |
-| Advanced Exercises | 20 min | Lab tools, scientific workflows |
-| Q&A + Wrap-up | 10 min | Questions and next steps |
+The workshop centers on a single comprehensive notebook that guides participants through all essential concepts:
+
+| Section | Description |
+|---------|-------------|
+| Setup & Orientation | OpenCode installation and first commands |
+| Core Workflow | Data visualization, automation, and complex tasks |
+| CLEAR Framework | Principles for effective scientific prompts |
+| Progressive Exercises | 28 hands-on exercises from beginner to advanced |
+| Reference Materials | Command cheat sheet and troubleshooting guide |
 
 ## Quick Start
 
@@ -60,47 +60,30 @@ export OPENAI_API_KEY='your-key-here'  # On Windows: set OPENAI_API_KEY=your-key
 jupyter notebook
 ```
 
-## Notebooks
+## Workshop Notebook
 
-### Main Workshop Material
+### `00_opencode_tutorial.ipynb` ⭐ **THE WORKSHOP**
 
-### 0. OpenCode Tutorial (`00_opencode_tutorial.ipynb`) ⭐ **MAIN NOTEBOOK**
-- Practical guide for using OpenCode in the terminal
-- Commands synchronized with each workshop notebook
-- Progressive exercises from beginner to advanced
-- Cheat sheet of effective prompts
-- Principles for effective use of code agents
-- The CLEAR framework for scientific prompts
+This is the complete workshop in a single notebook:
+
+- **Getting Started**: Installation, first commands, exploring projects
+- **Data Visualization**: Generate publication-ready plots from natural language
+- **Automation**: Data cleaning, batch processing, file organization
+- **Complex Tasks**: Multi-step analysis, statistical workflows
+- **CLEAR Framework**: Principles for effective scientific prompts
+- **28 Progressive Exercises**: From beginner to advanced, organized by skill level
+- **Reference**: Command cheat sheet and troubleshooting guide
 
 ---
 
-### Extra Material (Self-Study)
+### Extra Material (Optional Self-Study)
 
-The following notebooks provide additional learning resources for participants who want to dive deeper into using LLMs via API:
+For participants who want to learn how to use LLMs via API directly:
 
-### 1. Your First AI Assistant (`01_your_first_ai_assistant.ipynb`)
-- Set up OpenAI API access
-- Understand prompt engineering basics
-- Make your first API call
-- Practical exercise: Literature summary and analysis
-
-### 2. Data Visualization with AI (`02_data_visualization_with_ai.ipynb`)
-- Load and describe data to an LLM
-- Generate matplotlib/seaborn code from natural language
-- Iterate on visualizations through conversation
-- Build a library of reusable prompts
-
-### 3. Automating Repetitive Tasks (`03_automating_repetitive_tasks.ipynb`)
-- Generate data processing scripts from descriptions
-- Batch process multiple files with different formats
-- Clean messy data with AI assistance
-- Create reusable analysis pipelines
-
-### 4. Your First AI Agent (`04_your_first_ai_agent.ipynb`)
-- Understand the Agent = LLM + Tools + Loop formula
-- Build a research assistant agent with custom tools
-- Chain multiple LLM calls for complex analysis
-- Create practical agents for scientific workflows
+- `01_your_first_ai_assistant.ipynb` - API basics, prompt engineering
+- `02_data_visualization_with_ai.ipynb` - Generate plots programmatically
+- `03_automating_repetitive_tasks.ipynb` - Batch processing scripts
+- `04_your_first_ai_agent.ipynb` - Build simple AI agents
 
 ## Sample Data Files
 
@@ -145,21 +128,20 @@ This workshop uses `gpt-4o-mini` by default, which is very cost-effective:
 
 ## Live Demo Prompts (For Instructors)
 
-### Demo 1: After Notebook 1
+Example prompts to demonstrate OpenCode capabilities during the workshop:
+
 ```
 Create a Python script that reads 'experiment_results.csv',
 calculates mean and standard deviation for each numeric column
 grouped by 'treatment', and generates a bar chart with error bars.
 ```
 
-### Demo 2: During Notebook 2
 ```
 Read data/climate_data.csv and create a visualization showing
 temperature trends over time with a 12-month rolling average.
 Make it publication-ready.
 ```
 
-### Demo 3: During Notebook 4
 ```
 Analyze the experiment_results.csv file:
 1. Load and explore the data
@@ -175,26 +157,10 @@ code-llm-allies-2026/
 ├── README.md
 ├── requirements.txt
 ├── notebooks/
-│   ├── 00_opencode_tutorial.ipynb
-│   ├── 01_your_first_ai_assistant.ipynb
-│   ├── 02_data_visualization_with_ai.ipynb
-│   ├── 03_automating_repetitive_tasks.ipynb
-│   └── 04_your_first_ai_agent.ipynb
+│   ├── 00_opencode_tutorial.ipynb  ← Main workshop
+│   └── (01-04: optional extras)
 ├── data/
-│   ├── climate_data.csv
-│   ├── experiment_results.csv
-│   ├── survey_responses.csv
-│   ├── messy_data.csv
-│   ├── paper_abstracts.txt
-│   ├── patient_vitals.csv
-│   ├── protein_expression.csv
-│   ├── ecological_species.csv
-│   ├── crop_yield.csv
-│   ├── astronomy_observations.csv
-│   ├── energy_consumption.csv
-│   ├── software_bugs.csv
-│   ├── machine_learning_benchmarks.csv
-│   └── shipping_logistics.csv
+│   └── (14 sample datasets)
 └── slides/
     └── (optional presentation materials)
 ```
