@@ -1,0 +1,31 @@
+subject_id,treatment,control,measurement,date,species,growth_rate,temperature_c,notes
+S001,Drug_A,Placebo,45.2,2024-01-15,Mouse,1.23,37.0,Normal response
+S002,Drug_A,Placebo,52.1,2024-01-15,Mouse,1.45,37.0,Slight elevation
+S003,Drug_A,Placebo,48.7,2024-01-16,Mouse,1.31,37.0,Normal response
+S004,Drug_A,Placebo,51.3,2024-01-16,Mouse,1.42,37.0,Normal response
+S005,Drug_A,Placebo,47.8,2024-01-17,Mouse,1.28,37.0,Normal response
+S006,Drug_B,Placebo,62.4,2024-01-15,Mouse,1.78,37.0,Strong response
+S007,Drug_B,Placebo,58.9,2024-01-15,Mouse,1.65,37.0,Moderate response
+S008,Drug_B,Placebo,65.1,2024-01-16,Mouse,1.89,37.0,Strong response
+S009,Drug_B,Placebo,61.2,2024-01-16,Mouse,1.72,37.0,Strong response
+S010,Drug_B,Placebo,59.8,2024-01-17,Mouse,1.68,37.0,Moderate response
+S011,Placebo,Placebo,32.1,2024-01-15,Mouse,0.89,37.0,Baseline
+S012,Placebo,Placebo,34.5,2024-01-15,Mouse,0.95,37.0,Baseline
+S013,Placebo,Placebo,31.8,2024-01-16,Mouse,0.87,37.0,Baseline
+S014,Placebo,Placebo,33.2,2024-01-16,Mouse,0.91,37.0,Baseline
+S015,Placebo,Placebo,32.9,2024-01-17,Mouse,0.90,37.0,Baseline
+S016,Drug_A,Placebo,38.5,2024-01-18,Rat,1.05,37.5,Normal response
+S017,Drug_A,Placebo,42.1,2024-01-18,Rat,1.18,37.5,Slight elevation
+S018,Drug_A,Placebo,40.2,2024-01-19,Rat,1.12,37.5,Normal response
+S019,Drug_A,Placebo,41.8,2024-01-19,Rat,1.16,37.5,Normal response
+S020,Drug_A,Placebo,39.5,2024-01-20,Rat,1.08,37.5,Normal response
+S021,Drug_B,Placebo,55.2,2024-01-18,Rat,1.52,37.5,Strong response
+S022,Drug_B,Placebo,52.8,2024-01-18,Rat,1.45,37.5,Moderate response
+S023,Drug_B,Placebo,57.1,2024-01-19,Rat,1.58,37.5,Strong response
+S024,Drug_B,Placebo,54.5,2024-01-19,Rat,1.49,37.5,Moderate response
+S025,Drug_B,Placebo,53.2,2024-01-20,Rat,1.47,37.5,Moderate response
+S026,Placebo,Placebo,28.4,2024-01-18,Rat,0.78,37.5,Baseline
+S027,Placebo,Placebo,30.1,2024-01-18,Rat,0.82,37.5,Baseline
+S028,Placebo,Placebo,27.9,2024-01-19,Rat,0.76,37.5,Baseline
+S029,Placebo,Placebo,29.5,2024-01-19,Rat,0.80,37.5,Baseline
+S030,Placebo,Placebo,28.8,2024-01-20,Rat,0.79,37.5,Baseline

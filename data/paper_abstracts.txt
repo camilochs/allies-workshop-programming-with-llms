@@ -1,0 +1,61 @@
+ABSTRACT 1: Deep Learning for Protein Structure Prediction
+================================================================================
+Recent advances in deep learning have revolutionized protein structure prediction, culminating in systems that can predict three-dimensional protein structures with atomic accuracy. This paper reviews the AlphaFold2 architecture and its impact on structural biology. We analyze the attention-based mechanisms that enable accurate distance and angle predictions between amino acid residues. Our benchmarks on CASP14 targets demonstrate median GDT-TS scores exceeding 90 for most proteins. We discuss implications for drug discovery, enzyme engineering, and understanding disease mechanisms. The democratization of accurate structure prediction tools has enabled researchers without access to experimental facilities to make meaningful contributions to structural biology. We also address current limitations, including difficulties with intrinsically disordered regions, protein complexes, and conformational dynamics.
+
+Keywords: protein structure, deep learning, AlphaFold, CASP, structural biology
+
+---
+
+ABSTRACT 2: CRISPR-Cas9 Gene Editing Efficiency in Primary Human T Cells
+================================================================================
+Gene editing of primary human T cells using CRISPR-Cas9 technology holds tremendous promise for immunotherapy applications. In this study, we systematically optimized electroporation parameters, guide RNA modifications, and delivery timing to achieve >90% knockout efficiency in CD4+ and CD8+ T cells. We compared ribonucleoprotein (RNP) delivery against plasmid and mRNA approaches, finding that pre-complexed RNPs resulted in highest editing efficiency with minimal off-target effects. Cell viability post-editing remained above 70% when using optimized pulse conditions. Single-cell RNA sequencing revealed that edited cells maintained their functional phenotypes and proliferative capacity. Our protocol enables rapid generation of gene-edited T cells for CAR-T therapy development and functional genomics studies. We provide detailed methods and troubleshooting guidance to facilitate adoption in other laboratories.
+
+Keywords: CRISPR, T cells, gene editing, immunotherapy, electroporation
+
+---
+
+ABSTRACT 3: Machine Learning Models for Climate Change Prediction
+================================================================================
+Accurate prediction of regional climate change impacts remains challenging due to the complexity of Earth system interactions. We present an ensemble machine learning approach combining gradient boosting, neural networks, and Gaussian processes to improve regional temperature and precipitation projections. Training data comprised 150 years of historical observations and outputs from 35 CMIP6 climate models. Our ensemble achieved 23% lower RMSE compared to individual models when validated against held-out observational data. Feature importance analysis revealed that sea surface temperature patterns and atmospheric circulation indices were most predictive of regional outcomes. We applied our models to generate probabilistic projections for agricultural regions in Southeast Asia, identifying areas at highest risk for drought intensification. The framework is generalizable to other regions and can incorporate new climate model outputs as they become available. Code and trained models are available in our public repository.
+
+Keywords: climate change, machine learning, ensemble methods, regional prediction, CMIP6
+
+---
+
+ABSTRACT 4: Gut Microbiome Composition and Mental Health Outcomes
+================================================================================
+The gut-brain axis has emerged as a critical pathway linking intestinal microbiome composition to neurological and psychiatric outcomes. This prospective cohort study followed 2,847 adults over three years, collecting stool samples and administering validated mental health assessments at six-month intervals. 16S rRNA sequencing revealed that individuals with depression showed significantly reduced abundance of Faecalibacterium and Coprococcus species compared to healthy controls (p<0.001). Longitudinal analysis demonstrated that changes in Lactobacillus abundance preceded changes in anxiety scores by approximately two months. Metabolomic profiling identified reduced short-chain fatty acid production as a potential mechanism. A subset of participants (n=156) underwent a randomized controlled trial of targeted probiotic supplementation, showing modest but significant improvements in depression scores (Cohen's d=0.35). These findings support the microbiome as both a biomarker and potential therapeutic target for mental health disorders.
+
+Keywords: microbiome, gut-brain axis, depression, anxiety, probiotics
+
+---
+
+ABSTRACT 5: Quantum Computing for Drug Discovery Optimization
+================================================================================
+Quantum computing promises to revolutionize computational chemistry by enabling exact solutions to molecular electronic structure problems. We implemented variational quantum eigensolver (VQE) algorithms on a 127-qubit superconducting quantum processor to calculate binding energies for drug-protein interactions. For small molecule systems (up to 16 atoms), our quantum calculations achieved chemical accuracy (<1 kcal/mol error) with 40% fewer circuit evaluations than previous methods through adaptive ansatz optimization. We demonstrate proof-of-concept virtual screening of 50 kinase inhibitor candidates, correctly ranking binding affinities in 84% of cases. Current hardware limitations restrict applications to simplified active site models, but our error mitigation techniques point toward near-term practical utility. We project that 1000+ qubit systems expected within five years will enable quantum advantage for realistic drug discovery workflows. This work establishes a roadmap for pharmaceutical applications of fault-tolerant quantum computing.
+
+Keywords: quantum computing, drug discovery, VQE, molecular simulation, binding energy
+
+---
+
+ABSTRACT 6: Single-Cell Transcriptomics Reveals Tumor Heterogeneity
+================================================================================
+Intratumoral heterogeneity poses a major challenge for cancer treatment, with resistant subclones driving therapy failure. We performed single-cell RNA sequencing on 45 treatment-naive breast cancer samples, profiling over 500,000 individual cells. Unsupervised clustering identified 23 distinct cell states, including previously uncharacterized transitional populations. Trajectory analysis revealed a continuous spectrum from epithelial to mesenchymal phenotypes, with cells expressing hybrid signatures showing highest metastatic potential. We developed a 50-gene classifier that predicts patient survival independent of clinical stage (HR=2.8, p<0.0001). Spatial transcriptomics on matched tissue sections demonstrated that resistant cell populations localize near blood vessels in hypoxic niches. Drug screening on patient-derived organoids confirmed that targeting the identified resistant subpopulation with BET inhibitors restored sensitivity to standard chemotherapy. Our atlas provides a resource for understanding breast cancer evolution and identifying vulnerabilities for therapeutic intervention.
+
+Keywords: single-cell RNA-seq, breast cancer, tumor heterogeneity, drug resistance, spatial transcriptomics
+
+---
+
+ABSTRACT 7: Renewable Energy Storage Using Solid-State Batteries
+================================================================================
+Grid-scale energy storage is essential for renewable energy integration, but current lithium-ion batteries face limitations in energy density, safety, and cycle life. We report development of a solid-state battery using a sulfide-based superionic conductor (Li6PS5Cl) achieving ionic conductivity of 12 mS/cm at room temperature. Full cells with lithium metal anodes and high-nickel cathodes demonstrated energy densities of 450 Wh/kg—nearly double conventional designs. Accelerated aging tests showed 92% capacity retention after 1000 cycles at 1C rate. In situ X-ray tomography revealed that our interfacial modification strategy suppresses dendrite formation even at high current densities (5 mA/cm²). Manufacturing cost analysis suggests potential for 40% reduction compared to liquid electrolyte systems at scale. We successfully fabricated 10 Ah pouch cells for pilot testing, demonstrating the technology's readiness for commercial development. These advances address key barriers to electrification of transportation and grid storage.
+
+Keywords: solid-state batteries, energy storage, ionic conductors, lithium metal, grid storage
+
+---
+
+ABSTRACT 8: Neural Mechanisms of Decision-Making Under Uncertainty
+================================================================================
+How the brain computes decisions when outcomes are uncertain remains a fundamental question in neuroscience. We combined functional MRI with computational modeling in 89 participants performing a probabilistic reward task. Model comparison strongly favored a hierarchical Bayesian framework where participants maintained uncertainty estimates at multiple timescales. The dorsolateral prefrontal cortex encoded expected reward weighted by confidence, while the anterior insula tracked decision difficulty. Importantly, individual differences in uncertainty encoding predicted risk-taking behavior in an independent economic task (r=0.62). Participants with anxiety disorders showed attenuated uncertainty signals in the ventral striatum, potentially explaining their characteristic decision-making deficits. Transcranial magnetic stimulation to dorsolateral prefrontal cortex disrupted uncertainty-based adjustments, establishing a causal role for this region. These findings advance computational psychiatry by identifying neural signatures that distinguish adaptive from maladaptive decision-making under uncertainty.
+
+Keywords: decision-making, uncertainty, fMRI, computational modeling, prefrontal cortex

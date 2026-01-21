@@ -1,0 +1,26 @@
+sample_id,concentration,measurement_date,temperature,cell_count,status,notes
+EXP001,1.5,2024-01-15,25C,1.2e6,Complete,Normal run
+EXP002,2.0 mM,01/16/2024,25.0,1500000,Complete,
+EXP003,1.5mM,Jan 17, 2024,25 C,1.1E6,complete,Slight variance
+EXP004,N/A,2024-01-18,NA,1.3e6,Failed,Equipment malfunction
+EXP005,3.0,2024/01/19,25.5°C,1250000,COMPLETE,
+EXP006,2.5 mM,20-Jan-2024,,1.4e6,Complete,Temperature sensor failed
+EXP007,1.0,2024-01-21,25C,N/A,Complete,Cell counter error
+EXP008,2.0mM,January 22, 2024,25.0 C,1.35E6,complete,
+EXP009,,2024-01-23,25,1.28e6,Incomplete,Interrupted
+EXP010,1.75 mM,01-24-2024,25°C,1320000,Complete,
+EXP011,2.25,2024.01.25,25.0,1.45e6,COMPLETE,Best results
+EXP012,NA,26/01/2024,25 Celsius,1.5E6,Failed,Contamination suspected
+EXP013,1.5 mM,2024-01-27,25,1180000,Complete,
+EXP014,2.0,Jan. 28, 2024,25.0C,1.22e6,complete,
+EXP015,1.0mM,2024-01-29,N/A,1.38E6,Complete,Temperature not recorded
+EXP016,3.5 mM,30-01-2024,25°,1.41e6,Incomplete,Time constraint
+EXP017,2.75,2024/01/31,25.0,1.55e6,COMPLETE,High yield
+EXP018,1.25 mM,Feb 1, 2024,25 C,N/A,Complete,Counter malfunction
+EXP019,2.0mM,2024-02-02,25C,1.33E6,complete,Standard run
+EXP020,NA,02/03/2024,25.0,1.27e6,Failed,
+EXP021,1.5,2024-02-04,25,1290000,Complete,Normal parameters
+EXP022,2.5 mM,February 5, 2024,,1.36e6,Incomplete,Heating failure
+EXP023,1.75mM,2024.02.06,25°C,1.42E6,COMPLETE,
+EXP024,N/A,06-Feb-2024,25.0 C,1.48e6,Complete,Concentration unknown
+EXP025,2.25 mM,2024-02-07,25,1510000,complete,Peak performance
